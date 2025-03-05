@@ -1,0 +1,78 @@
+:root {	
+	--bg: #00000066;
+	--tabpanel-background-color: #00000000 !important;
+	--in-content-page-background: #00000000 !important;
+	--in-content-box-background: #00000088 !important;
+	--tabs-navbar-separator-color: rgba(0, 0, 0, 0) !important;
+	--toolbar-bgcolor: var(--bg);
+}
+
+tab.tabbrowser-tab[selected="true"] stack.tab-stack vbox.tab-background {
+	background: #FFFFFF28 !important;
+}
+
+#sidebar {
+	border: 0px !important;
+}
+
+#tabbrowser-tabbox {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+toolbar {
+	background: transparent !important;
+}
+
+#main-window {
+	background: var(--bg) !important;
+}
+
+#sidebar-main {
+	background: transparent !important;
+}
+
+html#main-window body hbox#browser.browser-toolbox-background {
+	background: transparent !important;
+}
+
+
+
+@media (-moz-bool-pref: "sidebar.revamp") {
+	:root {
+	  --sidebar-background-color: var(--bg) !important;
+	  --sidebar-box-background: var(--in-content-box-background) !important;
+	}
+  }
+
+#sidebar {
+	background: transparent !important;
+}
+
+toolbar {
+    border: none !important;
+}
+
+#nav-bar {
+	background: transparent  !important;
+}
+#navigator-toolbox {
+	background: transparent !important;
+	border: none !important;
+}
+
+hbox#urlbar[open="true"] hbox#urlbar-background {
+	background: #0000000e !important;
+}
+
+#navigator-toolbox {
+    border-bottom: none !important;
+}
+
+#urlbar-background {
+	background: #FFFFFF28 !important;
+}
+
+#urlbar[open] {
+	background: #2e2e2e !important;
+}

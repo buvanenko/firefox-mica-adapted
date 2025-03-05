@@ -1,0 +1,121 @@
+
+@-moz-document url("about:newtab"), url("about:home") {
+    body {
+        background-color: transparent !important; 
+    }
+
+    .tile {
+        background-color: #00000066 !important;
+    }
+
+    .top-site-icon {
+        background-color: transparent !important;
+    }
+
+    .logo-and-wordmark {
+        display: none !important;
+    }
+
+}
+
+@-moz-document url(https://ya.ru/) {
+    .sfbg {
+        background-color: rgba(255,255,255,.5) !important;
+        backdrop-filter: blur(20px);        
+    }
+    body, html, div#search > * {
+        background-color: transparent !important;
+    }
+    .g, .appbar {
+        background-color: transparent !important;
+    }
+    div#rso {
+        * {
+            background-color: transparent !important;
+        }
+    }
+    .informers3-weather__text {
+        background-color: transparent !important;
+    }
+
+    div#cnt > div {
+
+    }
+}
+
+
+@-moz-document domain(ollama.com) {
+    body {
+        background: white !important;
+        background-color: white !important; 
+    }
+
+}
+
+@-moz-document domain(market.yandex.ru) {
+    body {
+        background: white !important;
+        background-color: white !important; 
+    }
+
+    .page {
+        background: white !important;
+        background-color: white !important; 
+    }
+
+    #\/content\/page\/fancyPage
+    {
+        background: white !important;
+        background-color: white !important; 
+    }
+}
+
+/* @-moz-document domain(vk.com) {
+    body {
+        background: transparent !important;
+    }
+
+    .ConvoList__header {
+        -webkit-appearance: none !important;
+        -webkit-border-radius: 0px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .ConvoList__folders {
+        -webkit-appearance: none !important;
+        -webkit-border-radius: 0px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .ConvoList__headerContent {
+        border-bottom-left-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
+    }
+
+    .redesigned-group-cover__avg-color {
+        visibility: hidden !important;
+    }
+} */
+
+@-moz-document domain(food.ru) {
+    body {
+        background: white !important;
+        background-color: white !important; 
+    }
+}
+
+@-moz-document domain(perekrestok.ru) {
+    body {
+        background: white !important;
+        background-color: white !important; 
+    }
+}
+
+@-moz-document domain(gitverse.ru) {
+    body {
+        background: white !important;
+        background-color: white !important; 
+    }
+}
